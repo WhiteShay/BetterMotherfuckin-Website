@@ -3,3 +3,13 @@ h2 { color: rgb(12, 83, 10)}
 h3 { color: black}
   /* Couleurs des titres fonctionnelles, pour atempt 2 */
 body { color: rgb(43, 41, 41)} /* Modificayion de la couleur du texte en gris foncé */
+#msgBox {
+  width:400px;
+  height:200px;
+  padding-left: 82px;
+  background-position: 25px center;
+  background-repeat: no-repeat;
+  background-color: whitesmoke ;
+  color:black 
+}
+
