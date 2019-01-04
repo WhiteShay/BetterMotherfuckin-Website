@@ -21,4 +21,5 @@ function displayMessage() {
       panel.parentNode.removeChild(panel);
     }
   }
+
   displayMessage();
