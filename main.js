@@ -9,11 +9,13 @@ function displayMessage() {
     msg.textContent = 'Hey le site xxxvidsxxx est trop bien. Viens dessus stp please';
     panel.appendChild(msg);
     
-    let closeBtn = document.createElement('button_1');
+    let closeBtn = document.createElement('closeBtn');
+    panel.setAttribute('id','closeBtn')
     closeBtn.textContent = 'Non merci';
     panel.appendChild(closeBtn);
 
-    let linkBtn = document.createElement('button_2');
+    let linkBtn = document.createElement('linkBtn');
+    panel.setAttribute('id','linkBtn')
     linkBtn.textContent = 'OK'
     panel.appendChild(linkBtn)
     

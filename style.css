@@ -3,13 +3,27 @@ h2 { color: rgb(12, 83, 10)}
 h3 { color: black}
   /* Couleurs des titres fonctionnelles, pour atempt 2 */
 body { color: rgb(43, 41, 41)} /* Modificayion de la couleur du texte en gris foncé */
+
 #msgBox {
-  width:400px;
-  height:200px;
-  padding-left: 82px;
+  width: 800px;
+  height:300px;;
   background-position: 25px center;
   background-repeat: no-repeat;
   background-color: whitesmoke ;
-  color:black 
+  color:black;
+  overflow-anchor: center;
 }
 
+#closeBtn {
+width: 80px;
+height: 40 px;
+color: black;
+background-color: grey
+}
+
+#linkBtn {
+width: 80px;
+height: 40 px;
+color: black;
+background-color: grey
+}
