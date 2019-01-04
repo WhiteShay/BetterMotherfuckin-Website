@@ -1,6 +1,14 @@
-var bckgrndlayout = document.getElementById("bckgrndlayout");
-var popup = document.getElementById("popup");
-var closeBtn = document.getElementById("closeBtn");
-var linkBtn = document.getElementById("linkBtn");
+let bckgrndlayout = document.getElementById("bckgrndlayout");
+let popup = document.getElementById("popup");
+let closeBtn = document.getElementById("closeBtn");
+let linkBtn = document.getElementById("linkBtn");
 
-var bckgrndlayout = setTimeout(function(),10000)
+linkBtn.addEventListener('click',openPage);
+  function openPage() {
+      document.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"; 
+  }
+
+btnClose.addEventListener('click',closePopup);
+  function closePopup() {
+    bckgrndlayout.style.display = "none";
+  }
